@@ -1,6 +1,6 @@
 ## Laboratório Robótica
 
-Programa em java que cadastraa as peças de um laboratório de robótica para montar um robô. Os dados são armazenados em arraylist.
+Programa em java que cadastra as peças de um laboratório de robótica para montar um robô. Os dados são armazenados em arraylist.
 
 No laboratório existe um armário com peças separadas como rodas, motores, placas, sensores, os quais são itens necessários para a construção de um robô.
 
