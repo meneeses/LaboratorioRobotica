@@ -77,26 +77,26 @@ public class App {
                 break;
               }
             }
-        
+
+           //Listar estoque de peças
+           System.out.println("\n=== Estoque de Pecas ===");
           
-          //Listar estoque de peças
-          System.out.print("\n=== Estoque de Pecas ===");
-          
-          for(Peca peca : estoquePecas) {
-              System.out.print("Identificacao: " + peca.getItem());
-              System.out.print("Quantidade: " + peca.getQuantidade());
-              System.out.print("Valor unitario: R$" + peca.getValorUnitario());
-              System.out.println();
-          }
-      
-           // Listar robôs concluídos
-           System.out.println("\n=== Robos Concluidos ===");
-      
-           for (Robo robo : robosConcluidos) {
-               robo.mostrarPecasUtilizadas();
-               System.out.println("Custo total do robo: R$" + robo.getCustoTotal());
+           for(Peca peca : estoquePecas) {
+               System.out.println("Identificacao: " + peca.getItem());
+               System.out.println("Quantidade: " + peca.getQuantidade());
+               System.out.println("Valor unitario: R$" + peca.getValorUnitario());
                System.out.println();
            }
+       
+            // Listar robôs concluídos
+            System.out.println("\n=== Robos Concluidos ===");
+       
+            for (Robo robo : robosConcluidos) {
+                robo.mostrarPecasUtilizadas();
+                System.out.println("Custo total do robo: R$" + robo.getCustoTotal());
+                System.out.println();
+            }
+
         }
     }
 
